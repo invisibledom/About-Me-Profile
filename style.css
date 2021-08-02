@@ -1,0 +1,38 @@
+    body{
+      background-color: rgba(125, 192, 250, 0.5);
+    }
+    h1{
+      font-family: Courier;
+    }
+    #profile{
+      height: 170px;
+      width: 200px;
+      padding: 10px 20px 10px 20px;
+      border: 5px solid pink;
+      border-radius: 10px;
+    }
+    h2{
+      padding: 60px 0px 0px 0px;
+    }
+    #pattart{
+      height: 200px;
+      width: 200px;
+    }
+    #hobbies{
+     margin: 10px 0px 0px 0px;
+    }
+    #name{
+      background-color:beige;
+      text-align: center;
+    }
+    #birthday{
+      background-color: rgba(255, 216, 110);
+      text-align: center;
+    }
+    #snack{
+      background-color: rgba(250, 187, 17);
+      text-align: center;
+    }
+    h3{
+      padding: 10px 0px 10px 0px;
+    }

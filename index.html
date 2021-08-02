@@ -1,0 +1,75 @@
+<!DOCTYPE html>
+<html>
+  <head>
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width">
+    <title>repl.it</title>
+    <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/4.5.2/css/bootstrap.min.css">
+    <link href="style.css" rel="stylesheet" type="text/css" />
+  </head>
+
+  <body>
+    
+    <h id = "welcomeText"></h>
+
+    <div class="container">
+      <h1>About Yunxi</h1>
+        <img id="profile"src="https://lh3.googleusercontent.com/proxy/GWCL3GF4sgvNMrDfDQxktg8wjpubRFwyHnGzs1oFzD7192dcp43mpbLwNP5p4lhVEKY3r_cWfY6UGl6edbhihDF8YN2GGrsYw4kx9TCkd15Xjyq4xn8" style="float:left"/> 
+    
+      <p align ="center">Hi! I am Yunxi. This is a page to find out more about me! Here you can find information about my age, hobbies, current school, and more!</p>
+
+
+      <div class="row">
+        
+        <div class="col-lg-4 offset-4" id="name" >Name: Yunxi Wang <br> </div>
+        
+      </div>
+      <div class="row">
+        <div class="col-lg-4 offset-4" id="birthday"> Birthday: July 2nd </div>
+      </div>
+
+      <div class="row">
+        <div class="col-lg-4 offset-4" id="snack"> Snack: Pudding</div>
+      </div> 
+        
+      <h2>Hobbies</h2>
+        <p1>
+        I enjoy a variety of things. I like to surf the internet and play games with friends. It is also very exciting to find new released indie games on Steam or other stores and play them when they become available. Something else that I enjoy is reading manga, webtoons, and watching anime. <br>
+        </p1>
+    
+        <p2><input type="text" id="hobbies" style="height: 30px; width: 250px;" placeholder="What are some of your hobbies?"> 
+       <input type="submit" onsubmit = "feedback()"></p2>
+    
+        <h3>
+        Music I have been listening to
+        </h3>
+        <img id="pattart" src="https://i.scdn.co/image/ab67616d0000b273e4e3e24074c62f53b66a4e2a" title="pathcel tarts" style="float:top"/> 
+        <p>Pathcel Tarts is a great</p>
+
+        <p4 id="notification" ></p4>
+      </div>
+            <div class="container">
+        <div class="row">
+          <ul style="list-style-type:none">
+            <div class = "col"><li><a href = "mailto: wangyunxi288@gmail.com">GMAIL</a></li></div>
+            <div class = "col"><li onclick="copyID()">DISCORD</li></div>
+            <input type="text" value="invisibledom#6051" id="discordID">
+            <button onclick="copyID()">copy</button>
+            <div class = "col"><li><a href = "https://www.instagram.com/x.288.x" target="_blank">INSTAGRAM</a></li></div>
+            <div class = "col"><li><a href = "https://open.spotify.com/user/g9gfdmfamz2pv239bnyt5qpml?si=501d101110a94841"target="_blank">SPOTIFY</a></li></div>
+          </ul>
+        </div>
+      
+    </div>
+      
+    
+
+    <script src="script.js"></script>
+   
+    
+      
+
+
+  </body>
+
+</html>
